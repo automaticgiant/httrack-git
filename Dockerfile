@@ -15,5 +15,6 @@ run \
   apt-get clean
 run mkdir /mirror
 workdir /mirror
+volume /mirror
 cmd httrack
 
